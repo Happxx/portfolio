@@ -1,0 +1,13 @@
+[
+    {
+        "title": "WhileTrue",
+        "date": "2024",
+        "tags" : ["Python", "GameJam", "Pygame/PyTMX", "5 personnes"],
+        "description": "Réaliser un jeu avec des contraintes et langage imposé lors d'une GameJam",
+        "task": [
+            "Utiliser une bibliothèque de développement (Pygame, PyTMX)",
+            "Développer une API",
+            "Travailler en équipe"
+        ]
+    }
+]
