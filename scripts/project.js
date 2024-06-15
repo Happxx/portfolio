@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <hr class="solid">
                     <div class="card-footer pt-4">
-                        <button class="bg-white hover:bg-gray-100 openPopup text-gray-800 py-2 px-3 border border-gray-400 rounded-full shadow flex gap-1 items-center" data-index="${project.id}">
+                        <button class="bg-white hover:bg-gray-100 openPopup text-gray-800 py-2 px-3 border border-gray-400 rounded-full shadow flex gap-1 items-center" data-index="${index}">
                             Voir le projet
                             <span class="material-symbols-outlined pt-1">
                                 arrow_forward
@@ -40,23 +40,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
             document.body.appendChild(container);
 
-            // Add event listeners after projects are appended to the DOM
             const closePopup = document.querySelector('.closePopup');
             const openPopupButtons = document.querySelectorAll('.openPopup');
             const popup = document.querySelector('.popup');
             const overlay = document.getElementById('overlay');
             const popupContent = document.querySelector('.popup-content');
 
-            closePopup.addEventListener('click', function() {
+            overlay.addEventListener('click', function() {
                 popup.classList.add('hide');
-                overlay.style.display = 'none'; // Hide the overlay
+                overlay.style.display = 'none'; 
 
-                // Remove the 'hide' class after the animation completes
                 setTimeout(function() {
                     popup.classList.remove('show');
                     popup.classList.remove('hide');
-                    popupContent.innerHTML = ''; // Clear the popup content
-                }, 500); // Match this with the duration of your 'slideUp' animation
+                    popupContent.innerHTML = '';
+                }, 500);
+            });
+
+            closePopup.addEventListener('click', function() {
+                popup.classList.add('hide');
+                overlay.style.display = 'none'; 
+
+                setTimeout(function() {
+                    popup.classList.remove('show');
+                    popup.classList.remove('hide');
+                    popupContent.innerHTML = '';
+                }, 500);
             });
 
             openPopupButtons.forEach(button => {
@@ -66,10 +75,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     popupContent.innerHTML = `<p>${project.detailDescription}</p>`;
                     popup.classList.add('show');
                     popup.classList.remove('hide');
-                    overlay.style.display = 'block'; // Show the overlay
+                    overlay.style.display = 'block'; 
                 });
             });
         })
+
         .catch(error => {
             console.error('Error fetching projects:', error);
             document.body.innerHTML = '<p>Sorry, there was an error loading the projects. Please try again later.</p>';
