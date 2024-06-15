@@ -23,9 +23,11 @@ header {
 
 
 .line {
-  height: 2px;
   position: absolute;
-  background: #FF1847;
+  bottom: 0; /* Position the line at the bottom of the nav */
+  height: 2px; /* Adjust the height as needed */
+  background-color: red; /* Adjust the color as needed */
+  transition: all 0.3s ease;
 }
 
 nav ul li {
@@ -46,6 +48,9 @@ nav ul li.active a {
   font-weight: bold;
 }
 
+nav {
+  position: relative;
+}
 
 nav ul li a {
   text-decoration: none;
@@ -63,7 +68,7 @@ nav ul li a {
   border: 1px solid rgba(0, 0, 0, 0.130);
   border-radius: 7px;
   overflow: hidden;
-  width: 40%;
+  width: 700px;
   padding: 1em;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
