@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </ul>
                     </div>
                     <hr class="solid">
-                    <div class="card-footer pt-4">
+                    <div class="card-footer pt-4 pb-4">
                         <button class="bg-white hover:bg-gray-100 openPopup text-gray-800 py-2 px-3 border border-gray-400 rounded-full shadow flex gap-1 items-center" data-index="${index}">
                             Voir le projet
                             <span class="material-symbols-outlined pt-1">
@@ -73,8 +73,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     const index = this.getAttribute('data-index');
                     const project = projects[index];
                     popupContent.innerHTML = `<p>${project.detailDescription}</p>`;
-                    popup.classList.add('show');
                     popup.classList.remove('hide');
+                    setTimeout(function() {
+                        popup.classList.add('show');
+                    }, 100);
                     overlay.style.display = 'block'; 
                 });
             });
