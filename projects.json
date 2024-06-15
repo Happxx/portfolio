@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "title": "WhileTrue",
         "date": "2024",
         "tags" : ["Python", "GameJam", "Pygame/PyTMX", "5 personnes"],
@@ -8,6 +9,21 @@
             "Utiliser une bibliothèque de développement (Pygame, PyTMX)",
             "Développer une API",
             "Travailler en équipe"
-        ]
+        ],
+        "detailDescription":"test"
+    },
+    {
+        "id": 1,
+        "title": "Enquête sur les accidents de la route en France",
+        "date": "2023",
+        "tags" : ["PostgreSQL", "R Markdown", "Matplotlib", "2 personnes"],
+        "description": "Étudier les accidents de la route des moins de 18 ans en Provence-Alpes-Côte d'Azur.",
+        "features": [
+            "Importer les données dans une base de données",
+            "Trier et nettoyer la base de données",
+            "Faire des requêtes sur la base",
+            "Réaliser un rapport en anglais"
+        ],
+        "detailDescription": "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents\nen Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans. L'objectif de cette étude est d'informer les usagers de la route.\nNous avons d'abord nettoyé les données pour ensuite les triés et garder que les informations importante pour notre étude, par la suite nous avons étudié cette base de donnée à l'aide de requête SQL, pour au final\n créer un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R studio avec le langage R markdown afin de régider un rapport écrit et de rajouter des graphes et tableaux dans un document pdf."
     }
 ]
