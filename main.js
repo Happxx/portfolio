@@ -11,7 +11,6 @@ let widActive = 0;
 if(active) {
   let activeRect = active.getBoundingClientRect();
   let navRect = nav.getBoundingClientRect();
-  console.log(activeRect.left, navRect.left)
   posActive = activeRect.left - navRect.left;
   widActive = active.offsetWidth;
   line.style.left = posActive + 'px';

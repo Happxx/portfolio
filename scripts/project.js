@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const popup = document.querySelector('.popup');
             const overlay = document.getElementById('overlay');
             const popupContent = document.querySelector('.popup-content');
+            const popupHeader = document.querySelector('.popup-header-content');
 
             overlay.addEventListener('click', function() {
                 popup.classList.add('hide');
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const index = this.getAttribute('data-index');
                     const project = projects[index];
                     popupContent.innerHTML = `<p>${project.detailDescription}</p>`;
+                    popupHeader.innerHTML = `<h2>${project.description}</h2>`;
                     popup.classList.remove('hide');
                     setTimeout(function() {
                         popup.classList.add('show');

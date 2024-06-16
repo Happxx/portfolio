@@ -10,7 +10,7 @@
             "Faire des requêtes sur la base",
             "Réaliser un rapport en anglais"
         ],
-        "detailDescription": "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents\nen Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans. L'objectif de cette étude est d'informer les usagers de la route.\nNous avons d'abord nettoyé les données pour ensuite les triés et garder que les informations importante pour notre étude, par la suite nous avons étudié cette base de donnée à l'aide de requête SQL, pour au final\n créer un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R studio avec le langage R markdown afin de régider un rapport écrit et de rajouter des graphes et tableaux dans un document pdf."
+        "detailDescription": "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents en Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans. <br/> L'objectif de cette étude est d'informer les usagers de la route.\nNous avons d'abord nettoyé les données pour ensuite les triés et garder que les informations importante pour notre étude, par la suite nous avons étudié cette base de donnée à l'aide de requête SQL, pour au final\n créer un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R studio avec le langage R markdown afin de régider un rapport écrit et de rajouter des graphes et tableaux dans un document pdf."
     },
     {
         "title": "Ezlan",
@@ -22,6 +22,17 @@
             "Définir les spécifications de l'application",
             "Travailler en équipe",
             "Coder, tester, debugger l'application"
+        ],
+    "detailDescription": "Ce projet visait à développer une application de gestion de tournoi de jeux vidéo en utilisant Java et JavaFX et en respectant l'architecture MVC (Modèle-Vue-Contrôleur). En tant que chef de projet, avec l'équipe nous avons coordonné la planification des tâches et réparti les rôles. Ensemble, nous avons défini les spécifications de l'application, détaillant les fonctionnalités nécessaires pour répondre aux besoins des utilisateurs. <br/> Tout au long du projet, nous avons codé, testé et débogué l'application, garantissant ainsi son bon fonctionnement et son efficacité. Pour ma part, j'ai participé au développement côté back-end, avec la création des contrôleurs et modèles. L'utilisation de Git a facilité notre gestion de version et notre collaboration. Cette expérience m'a permis de développer des compétences en gestion de projet, en travail d'équipe et en développement logiciel."
+    },
+    {
+        "title": "Installation de services réseau",
+        "date": "2023",
+        "tags" : ["Debian 11", "Apache", "PostgreSQL", "PHP", "1 personne"],
+        "description": "Installer serveur Debian 11 équipé d'Apache, PostgreSQL et PHP sur une VM",
+        "features": [
+            "Réaliser un guide d'installation rédigé en anglais",
+            "Installer et configurer les différents services"
         ],
         "detailDescription":"test"
     },
@@ -37,18 +48,7 @@
             "Interagir avec une base de données",
             "Coder, tester, debugger le coding game"
         ],
-        "detailDescription":"test"
-    },
-    {
-        "title": "Installation de services réseau",
-        "date": "2023",
-        "tags" : ["Debian 11", "Apache", "PostgreSQL", "PHP", "1 personne"],
-        "description": "Installer serveur Debian 11 équipé d'Apache, PostgreSQL et PHP sur une VM",
-        "features": [
-            "Réaliser un guide d'installation rédigé en anglais",
-            "Installer et configurer les différents services"
-        ],
-        "detailDescription":"test"
+        "detailDescription": "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents en Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans. L'objectif de cette étude est d'informer les usagers de la route. Nous avons d'abord nettoyé les données pour ensuite les triés et garder que les informations importante pour notre étude, par la suite nous avons étudié cette base de donnée à l'aide de requête SQL, pour au final créer un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R studio avec le langage R markdown afin de régider un rapport écrit et de rajouter des graphes et tableaux dans un document pdf."
     },
     {
         "title": "Développement d'une application web",
