@@ -17,7 +17,6 @@ header {
   align-items: center;
   width: 100%;
   height: 5em;
- 
   color: #fff;
 }
 
@@ -26,7 +25,7 @@ header {
   position: absolute;
   bottom: 0; /* Position the line at the bottom of the nav */
   height: 2px; /* Adjust the height as needed */
-  background-color: red; /* Adjust the color as needed */
+  background-color: #11b8e2; /* Adjust the color as needed */
   transition: all 0.3s ease;
 }
 
@@ -35,6 +34,7 @@ nav ul li {
   opacity: .4;
   transition: all 0.5s ease;
 }
+
 
 nav ul li:hover {
   opacity: .7;
@@ -73,6 +73,29 @@ nav ul li a {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+
+
+.card.skill ul li img{
+  width: 20%;
+  height: 20%;
+}
+
+.card.skill ul li img.big{
+  width: 30%;
+  height: 30%;
+}
+.card.skill ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 1em;
+}
+
+
+.card.skill ul li{
+  display: flex;
+  gap: 1em;
+}
 
 .card.animate:hover {
   transform: translateY(-10px);
