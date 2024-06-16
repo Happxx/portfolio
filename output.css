@@ -826,10 +826,6 @@ video {
   height: 20%;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-\[15\%\] {
   width: 15%;
 }
@@ -1398,6 +1394,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {

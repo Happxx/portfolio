@@ -34,8 +34,7 @@
             "Réaliser un guide d'installation rédigé en anglais",
             "Installer et configurer les différents services"
         ],
-        "detailDescription":"test"
-    },
+        "detailDescription": "Pour ce projet, j'ai installé un serveur Debian 11 équipé d'Apache, PostgreSQL et PHP sur une machine virtuelle. Travaillant seul, j'ai produit un guide d'installation rédigé en anglais, détaillant chaque étape de l'installation et de la configuration des différents services. Cette documentation a été conçue pour être claire et accessible, permettant à d'autres utilisateurs de reproduire le processus sans difficulté. Le projet comprenait l'installation initiale du système d'exploitation Debian, suivie de l'installation et de la configuration d'Apache pour servir des pages web, de PostgreSQL pour la gestion des bases de données, et de PHP pour le traitement des scripts côté serveur."    },
     {
         "title": "CodeCrafter",
         "date": "2023",
@@ -48,20 +47,7 @@
             "Interagir avec une base de données",
             "Coder, tester, debugger le coding game"
         ],
-        "detailDescription": "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents en Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans. L'objectif de cette étude est d'informer les usagers de la route. Nous avons d'abord nettoyé les données pour ensuite les triés et garder que les informations importante pour notre étude, par la suite nous avons étudié cette base de donnée à l'aide de requête SQL, pour au final créer un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R studio avec le langage R markdown afin de régider un rapport écrit et de rajouter des graphes et tableaux dans un document pdf."
-    },
-    {
-        "title": "Développement d'une application web",
-        "date": "2023",
-        "tags" : ["Python", "Flask", "PostgreSQL", "2 personnes"],
-        "description": "Développer une application web de gestion de projet",
-        "features": [
-            "Définir les spécifications de l'application",
-            "Développer le modèle de donnée",
-            "Interagir avec une base de données",
-            "Coder, tester, debugger l'application"
-        ],
-        "detailDescription":"test"
+        "detailDescription": "L'objectif du projet est de réaliser un outil ludo-éducatif à destination des élèves de lycée en première pour la matière Numérique et Sciences Informatiques sur la partie algorithmique, avec un suivi des élèves. <br/> Notre projet est donc un jeu où l'étudiant devra écrire du code à l'aide de méthodes données en pseudo-python, par exemple avancer, reculer. Grâce à ces méthodes, le joueur résout des puzzles où l'objectif principal est de déplacer son personnage d'un point de départ à un point d'arrivée. Le joueur devra surmonter des obstacles et résoudre des énigmes ou problèmes, seul ou à deux. <br/>   Avec l'équipe, nous avons défini les spécifications de l'application et planifié les tâches de chaque membre pour garantir une progression efficace. Nous avons développé le modèle de données et assuré l'interaction avec une base de données PostgreSQL. Le jeu a été conçu en utilisant React pour l'interface utilisateur, Node.js pour le backend et Phaser JS pour les éléments de jeu interactifs. Pour ma part, j'ai développé la partie jeu avec Phaser JS et participé au développement du semi-interpréteur Python. Un rapport a été rédigé par toute l'équipe à la fin du projet."
     },
     {
         "title": "WhileTrue",
@@ -73,6 +59,6 @@
             "Développer une API",
             "Travailler en équipe"
         ],
-        "detailDescription":"test"
+        "detailDescription": "Le projet 'WhileTrue' a été réalisé lors d'une GameJam sur le thème 'Le monde merveilleux de l'IUT2, Garder le rythme, Paramétrer avec des arguments'. Notre équipe de cinq personnes a créé un jeu où un élève découvre que son ami est un meurtrier et revit la même journée en boucle. J'ai pris en charge le développement backend, en créant une API pour paramétrer le jeu (entités, points d'apparition, dialogues) via Talend, qui génère les cartes en PYTMX. Ainsi que le développement du jeu de rythme. Nous avons utilisé Pygame pour les éléments de base et PyTMX pour la gestion des tuiles."
     }
 ]
