@@ -133,6 +133,10 @@ nav ul li a {
   width: fit-content;
 }
 
+.popup-content a{
+  text-decoration: underline;
+  color: #11b8e2;
+}
 
 .hidden {
   display: none;
