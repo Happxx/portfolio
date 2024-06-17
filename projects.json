@@ -89,7 +89,7 @@
     },
     {
         "title": "CodeCrafter",
-        "date": "2023",
+        "date": "2024",
         "tags" : ["JS", "React", "Node JS", "Phaser JS", "PostgreSQL", "7 personnes (Chef de projet)"],
         "description": "Développer un coding game destiné aux élèves de NSI sur l'algorithmique en 3 mois",
         "features": [
