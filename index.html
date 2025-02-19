@@ -1,139 +1,88 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Porfolio</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <script src="https://kit.fontawesome.com/74eb33d62d.js" crossorigin="anonymous"></script>
-  <link href="main.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loïc Marioli</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <header class="flex justify-center">
     <nav>
-      <ul class="flex">
-        <li class="active"><a href="">Accueil</a></li>
-        <li><a href="pages/project.html">Projets</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
-      </ul>
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#hero">Accueil</a></li>
+            <li class="nav-link"><a href="#skill">Compétences</a></li>
+            <li class="nav-link"><a href="#">Projets</a></li>
+            <li class="nav-link"><a href="#">Contact</a></li>
+        </ul>
     </nav>
-  </header>
-  <main class="flex">
-    <div class="flex flex-col gap-4">
-      <div class="flex flex-col gap-5 items-center card presentation">
-        <div class="flex gap-4">
-          <img src="assets/profil.jpeg" alt="cover" class="shadow-lg">
-          <div class="flex flex-col gap-4">
-            <p class="text-left">
-              Je m'appelle Loïc MARIOLI, j'ai 19 ans. Actuellement, je suis étudiant en deuxième année de BUT Informatique à l'IUT2 de Grenoble.
-               Passionné par le développement et les jeux vidéo, j'ai développé des compétences solides en programmation et en utilisation de divers logiciels de 
-               développement.
-              Mon objectif est de poursuivre mes études à l'étranger et d'intégrer une école d'ingénieur après l'obtention de mon BUT.
-            </p>
-            <div class="flex items-center justify-center w-full gap-10">
-              <a class="flex flex-col items-center justify-center" href="https://github.com/Happxx" target="_blank">
-                <i class="fa-brands fa-github text-4xl"></i>
-                Github
-              </a>
-              <a class="flex flex-col  items-center justify-center" href="mailto:marioli.loic@gmail.com">
-                <i class="fa-solid fa-envelope text-4xl"></i>
-                e-mail
-              </a>
-              <a class="flex flex-col  items-center justify-center" href="assets/mon_cv.pdf" target="_blank">
-                <i class="fa-solid fa-file text-4xl"></i>
-                CV
-              </a>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Bienvenue</h1>
+                <div>
+                    <p>Je suis Loïc Marioli étudiant en 3ème année de BUT informatique à l'IUT2 de Grenoble. </p>
+                    <p>Je fini actuellement ma formation au Québec 🇨🇦. Développeur full-stack et passionné par le développement.</p>
+                </div>
             </div>
-          </div>   
+            <img class="hero-image" src="img/hero.jpg" alt="hero-image">
         </div>
-      </div> 
-
-      <div class="card">
-        <div class="card-header">
-          <h2>Expériences professionnelles</h2>
-        </div>
-        <div class="card-body flex justify-between">
-          <div class="experience">
-            <h3 class="font-semibold">Opérateur en restauration (2021-2022)</h3>
-            <h4 class="text-sm">Walibi Rhône-Alpes, Avenière 38</h4>
-            <ul class="project-list pl-4">
-              <li>Gestion d'un point de vente</li>
-              <li>Relation client</li>
-              <li>Travailler avec une équipe</li>
-            </ul>
-          </div>
-          <div class="experience">
-            <h3 class="font-semibold">Développeur Web full-stack (2023)</h3>
-            <h4 class="text-sm">Axopen, Lyon 69</h4>
-            <ul class="project-list pl-4">
-              <li>Développement d'une application web</li>
-              <li>Gestion de projet</li>
-              <li>Communication en équipe</li>
-            </ul>
-          </div>
-          <div class="experience"></div>
-        </div>
-      </div>
-    </div>
-    <div class="flex justify-evenly w-full items-center content-center">
-      <div class="card animate skill">
-        <div class="card-header">
-          <h2>Langages</h2>
-        </div>
-        <div class="card-body">
-          <ul>
-            <li><img class="w-[20%] h-[20%]" src="assets/python.png" alt=""><span>Python</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/java.png" alt=""><span>Java/JavaFX</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/web.png" alt=""><span>HTML/CSS/JS</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/php.png" alt=""><span>PHP</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/C.png" alt=""><span>C/C++</span></li>
-            <li><img class="w-[15%] h-[15%]" src="assets/sql.png" alt=""><span>SQL</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/assembleur.png" alt=""><span>Assembleur</span></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card animate skill">
-        <div class="card-header">
-          <h2>Technologies</h3>
-        </div>
-        <div class="card-body">
-          <ul>
-            <li><img class="w-[20%] h-[20%]" src="assets/react.png" alt=""><span>React</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/angular.png" alt=""><span>Angular</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/nodeJS.png" alt=""><span>NodeJS</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/springboot.png" alt=""><span>Springboot</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/tailwind.png" alt=""><span>Tailwind</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/symfony.png" alt=""><span>Symfony</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/express.png" alt=""><span>Express</span></li>
-          </ul>
-        </div>          
-      </div>
-
-      <div class="card animate skill">
-        <div class="card-header">
-          <h2>Logiciels</h2>
-        </div>
-        <div class="card-body">
-          <ul>
-            <li><img class="w-[20%] h-[20%]" src="assets/vscode.png" alt=""><span>Visual Studio Code</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/clion.png" alt=""><span>Clion</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/phpstorm.png" alt=""><span>PhpStorm</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/idea.png" alt=""><span>Intellij IDEA</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/git.png" alt=""><span>Git</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/talend.png" alt=""><span>Talend</span></li>
-            <li><img class="w-[20%] h-[20%]" src="assets/visual.png" alt=""><span>Visual Paradigm</span></li>
-          </ul>
-          <h3 class="font-bold pb-2 pt-2">Base de données</h3>
-          <ul>
-            <li><img class="w-[20%] h-[20%]" src="assets/postgreSQL.png" alt=""><span>PostgreSQL</span></li>
-            <li><img class="w-[15%] h-[15%]" src="assets/sqlite.png" alt=""><span>Sqlite</span></li>
-          </ul>
-        </div>
-      </div>
-  </div>
-
-
-  </main>
+    
+    </section>
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 190" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="0" y2="0"><stop stop-color="#1C0281" offset="0%"></stop>
+            <stop stop-color="#1C0281" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 1px); opacity:1" fill="#1C0281" 
+            d="M0,152L20,126.7C40,101,80,51,120,44.3C160,38,200,76,240,95C280,114,320,114,360,101.3C400,89,440,63,480,57C520,51,560,63,600,79.2C640,95,680,114,720,104.5C760,95,800,57,840,53.8C880,51,920,82,960,79.2C1000,76,1040,38,1080,22.2C1120,6,1160,13,1200,28.5C1240,44,1280,70,1320,91.8C1360,114,1400,133,1440,142.5C1480,152,1520,152,1560,148.8C1600,146,1640,139,1680,114C1720,89,1760,44,1800,38C1840,32,1880,63,1920,85.5C1960,108,2000,120,2040,126.7C2080,133,2120,133,2160,139.3C2200,146,2240,158,2280,139.3C2320,120,2360,70,2400,41.2C2440,13,2480,6,2520,12.7C2560,19,2600,38,2640,38C2680,38,2720,19,2760,28.5C2800,38,2840,76,2860,95L2880,114L2880,190L2860,190C2840,190,2800,190,2760,190C2720,190,2680,190,2640,190C2600,190,2560,190,2520,190C2480,190,2440,190,2400,190C2360,190,2320,190,2280,190C2240,190,2200,190,2160,190C2120,190,2080,190,2040,190C2000,190,1960,190,1920,190C1880,190,1840,190,1800,190C1760,190,1720,190,1680,190C1640,190,1600,190,1560,190C1520,190,1480,190,1440,190C1400,190,1360,190,1320,190C1280,190,1240,190,1200,190C1160,190,1120,190,1080,190C1040,190,1000,190,960,190C920,190,880,190,840,190C800,190,760,190,720,190C680,190,640,190,600,190C560,190,520,190,480,190C440,190,400,190,360,190C320,190,280,190,240,190C200,190,160,190,120,190C80,190,40,190,20,190L0,190Z"></path></svg>
+    <section class="skill" id="skill">
+            <h1>Compétences</h1>
+            <div class="skill-list">
+                <div class="card">
+                    <h2>Langages</h2>
+                    <ul>
+                        <li><img src="img/python.png" alt=""><span>Python</span></li>
+                        <li><img src="img/java.png" alt=""><span>Java/JavaFX</span></li>
+                        <li><img src="img/web.png" alt=""><span>HTML/CSS/JS</span></li>
+                        <li><img src="img/php.png" alt=""><span>PHP</span></li>
+                        <li><img src="img/C.png" alt=""><span>C/C++</span></li>
+                        <li><img src="img/sql.png" alt=""><span>SQL</span></li>
+                        <li><img src="img/assembleur.png" alt=""><span>Assembleur</span></li>
+                    </ul>
+                </div>
+                  <div class="card">
+                    <h2>Technologies</h3>
+                    <ul>
+                        <li><img src="img/react.png" alt=""><span>React</span></li>
+                        <li><img src="img/angular.png" alt=""><span>Angular</span></li>
+                        <li><img src="img/nodeJS.png" alt=""><span>NodeJS</span></li>
+                        <li><img src="img/springboot.png" alt=""><span>Springboot</span></li>
+                        <li><img src="img/tailwind.png" alt=""><span>Tailwind</span></li>
+                        <li><img src="img/symfony.png" alt=""><span>Symfony</span></li>
+                        <li><img src="img/express.png" alt=""><span>Express</span></li>
+                    </ul>
+                  </div>
+            
+                  <div class="card">
+                    <h2>Logiciels</h2>
+                    <ul>
+                        <li><img src="img/vscode.png" alt=""><span>Visual Studio Code</span></li>
+                        <li><img src="img/clion.png" alt=""><span>Clion</span></li>
+                        <li><img src="img/phpstorm.png" alt=""><span>PhpStorm</span></li>
+                        <li><img src="img/idea.png" alt=""><span>Intellij IDEA</span></li>
+                        <li><img src="img/git.png" alt=""><span>Git</span></li>
+                        <li><img src="img/talend.png" alt=""><span>Talend</span></li>
+                        <li><img src="img/visual.png" alt=""><span>Visual Paradigm</span></li>
+                    </ul>
+                    <h3>Base de données</h3>
+                    <ul>
+                        <li><img src="img/postgreSQL.png" alt=""><span>PostgreSQL</span></li>
+                        <li><img src="img/sqlite.png" alt=""><span>Sqlite</span></li>
+                    </ul>
+                  </div>
+            </div>
+    </section>
+    <svg id="wave" viewBox="0 0 1440 190" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="0" y2="0"><stop stop-color="#1C0281" offset="0%"></stop>
+            <stop stop-color="#1C0281" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 1px); opacity:1" fill="#1C0281" 
+            d="M0,152L20,126.7C40,101,80,51,120,44.3C160,38,200,76,240,95C280,114,320,114,360,101.3C400,89,440,63,480,57C520,51,560,63,600,79.2C640,95,680,114,720,104.5C760,95,800,57,840,53.8C880,51,920,82,960,79.2C1000,76,1040,38,1080,22.2C1120,6,1160,13,1200,28.5C1240,44,1280,70,1320,91.8C1360,114,1400,133,1440,142.5C1480,152,1520,152,1560,148.8C1600,146,1640,139,1680,114C1720,89,1760,44,1800,38C1840,32,1880,63,1920,85.5C1960,108,2000,120,2040,126.7C2080,133,2120,133,2160,139.3C2200,146,2240,158,2280,139.3C2320,120,2360,70,2400,41.2C2440,13,2480,6,2520,12.7C2560,19,2600,38,2640,38C2680,38,2720,19,2760,28.5C2800,38,2840,76,2860,95L2880,114L2880,190L2860,190C2840,190,2800,190,2760,190C2720,190,2680,190,2640,190C2600,190,2560,190,2520,190C2480,190,2440,190,2400,190C2360,190,2320,190,2280,190C2240,190,2200,190,2160,190C2120,190,2080,190,2040,190C2000,190,1960,190,1920,190C1880,190,1840,190,1800,190C1760,190,1720,190,1680,190C1640,190,1600,190,1560,190C1520,190,1480,190,1440,190C1400,190,1360,190,1320,190C1280,190,1240,190,1200,190C1160,190,1120,190,1080,190C1040,190,1000,190,960,190C920,190,880,190,840,190C800,190,760,190,720,190C680,190,640,190,600,190C560,190,520,190,480,190C440,190,400,190,360,190C320,190,280,190,240,190C200,190,160,190,120,190C80,190,40,190,20,190L0,190Z"></path></svg>
+    <script src="index.js" ></script>
 </body>
-<script src="main.js"></script>
 </html>
