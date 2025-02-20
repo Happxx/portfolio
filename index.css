@@ -12,26 +12,31 @@ body {
 
 nav {
     position: fixed;
-    width: 100%;
+    left: 50%;
+    translate: -50%;
     height: auto;
     z-index: 1000;
+    color: #1C0281;
+
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     list-style: none;
     font-weight: bold;
-    gap: 1em;
-    padding: 1em 0;
+    gap: 20px;
+    padding: 10px;
 
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #1C0281;
     transition: color 0.3s, border-bottom 0.3s;
 }
 
@@ -43,8 +48,12 @@ nav .active {
     text-decoration: underline;
 }
 
-nav .black {
-    color: #1C0281;
+.black a {
+    color: #fff;
+}
+
+.black{
+    background-color: #1C0281;
 }
 
 .hero {
@@ -105,21 +114,26 @@ nav .black {
 }
 
 .card {
-    background-color: #fff;
+    background-color: whitesmoke;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 40px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+    padding: 35px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    transform: translateY(-30px);
 }
 
-.card h2, .card h3 {
+.card h2 {
     color: #1C0281;
-    padding: 5px 0 5px 0;
+    padding: 0px 0 15px 0;
+}
+
+.card h3 {
+    color: #1C0281;
+    padding: 15px 0 15px 0;
 }
 
 .card ul {
@@ -135,7 +149,7 @@ nav .black {
 }
 
 .card ul li img {
-    width: 30px;
+    width: 32px;
     height: auto;
     margin-right: 10px;
 }
