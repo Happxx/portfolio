@@ -1,0 +1,60 @@
+
+[
+    {
+    "title": "Langages",
+    "items": [
+        { "img": "img/skill/python.png", "text": "Python" },
+        { "img": "img/skill/java.png", "text": "Java/JavaFX" },
+        { "img": "img/skill/web.png", "text": "HTML/CSS/JS" },
+        { "img": "img/skill/php.png", "text": "PHP" },
+        { "img": "img/skill/C.png", "text": "C/C++" },
+        { "img": "img/skill/sql.png", "text": "SQL" },
+        { "img": "img/skill/assembleur.png", "text": "Assembleur" }
+    ]
+    },
+    {
+    "title": "Technologies",
+    "items": [
+        { "img": "img/skill/react.png", "text": "React" },
+        { "img": "img/skill/angular.png", "text": "Angular" },
+        { "img": "img/skill/nodeJS.png", "text": "NodeJS" },
+        { "img": "img/skill/springboot.png", "text": "Springboot" },
+        { "img": "img/skill/tailwind.png", "text": "Tailwind" },
+        { "img": "img/skill/symfony.png", "text": "Symfony" },
+        { "img": "img/skill/express.png", "text": "Express" },
+        { "img": "img/skill/flask.png", "text": "Flask" }
+    ]
+    },
+    {
+    "title": "Logiciels",
+    "items": [
+        { "img": "img/skill/vscode.png", "text": "Visual Studio Code" },
+        { "img": "img/skill/clion.png", "text": "Clion" },
+        { "img": "img/skill/phpstorm.png", "text": "PhpStorm" },
+        { "img": "img/skill/idea.png", "text": "Intellij IDEA" },
+        { "img": "img/skill/git.png", "text": "Git" },
+        { "img": "img/skill/talend.png", "text": "Talend" },
+        { "img": "img/skill/visual.png", "text": "Visual Paradigm" }
+    ],
+    "subsections": [
+        {
+        "title": "Base de données",
+        "items": [
+            { "img": "img/skill/postgreSQL.png", "text": "PostgreSQL" },
+            { "img": "img/skill/sqlite.png", "text": "Sqlite" }
+        ]
+        }
+    ]
+    },
+    {
+    "title": "Transversales",
+    "items": [
+        { "img": "img/skill/teamwork.png", "text": "Travail en équipe" },
+        { "img": "img/skill/curiosity.png", "text": "Curiosité" },
+        { "img": "img/skill/autonomy.png", "text": "Autonomie" },
+        { "img": "img/skill/adaptability.png", "text": "Adaptabilité" },
+        { "img": "img/skill/stay-positive.png", "text": "Attitude Positive" },
+        { "img": "img/skill/flexibility.png", "text": "Flexibilité" }
+    ]
+    }
+]
