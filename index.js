@@ -105,11 +105,9 @@ function getProjects() {
             const projectList = document.querySelector('.project-list');
 
             projects.forEach(project => {
-                // Créer la carte de projet
                 const card = document.createElement('div');
                 card.classList.add('project-card');
 
-                // Créer la section de l'image
                 const projectImage = document.createElement('div');
                 projectImage.classList.add('project-image');
 
@@ -118,12 +116,12 @@ function getProjects() {
                 img.alt = project.title;
                 projectImage.appendChild(img);
 
-                const wave = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); // Utilisez createElementNS pour les SVG
+                const wave = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); 
                 wave.classList.add('wave');
                 wave.setAttribute('viewBox', '0 0 500 150');
                 wave.setAttribute('preserveAspectRatio', 'none');
 
-                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path'); // Utilisez createElementNS pour les éléments SVG
+                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
                 path.setAttribute('d', 'M0,100 C150,200 350,0 500,100 L500,150 L0,150 Z');
                 wave.appendChild(path);
 
@@ -132,7 +130,6 @@ function getProjects() {
                 projectImage.appendChild(wave);
                 card.appendChild(projectImage);
 
-                // Créer la section du contenu
                 const projectContent = document.createElement('div');
                 projectContent.classList.add('project-content');
 
@@ -140,14 +137,23 @@ function getProjects() {
                 title.classList.add('title');
                 title.textContent = project.title;
                 projectContent.appendChild(title);
-
+                
+                const tags = document.createElement('div');
+                tags.classList.add('tags');
+                project.tags.forEach(tag => {
+                    const tagElement = document.createElement('span');
+                    tagElement.classList.add('tag');
+                    tagElement.textContent = tag;
+                    tags.appendChild(tagElement);
+                });
+                projectContent.appendChild(tags);    
+            
                 const description = document.createElement('p');
                 description.textContent = project.description;
                 projectContent.appendChild(description);
 
                 card.appendChild(projectContent);
 
-                // Ajouter la carte au conteneur de la liste des projets
                 projectList.appendChild(card);
             });
         });

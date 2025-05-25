@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -180,22 +182,25 @@ nav .active {
     color: white;
 }
 
-/* Liste des projets */
 .project-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
 
-/* Carte de projet */
 .project-card {
     background-color: whitesmoke;
     border-radius: 20px 20px 15px 15px;
     width: 350px;
+    transition: transform 0.3s;
 }
 
-/* Image avec effet d'ondulation */
+.project-card:hover {
+    transform: scale(1.05);
+}
+
 .project-image {
     position: relative;
     width: 100%;
@@ -212,7 +217,6 @@ nav .active {
 }
 
 
-/* Effet ondulation */
 .wave {
     position: absolute;
     bottom: -2px;
@@ -222,13 +226,31 @@ nav .active {
     fill: whitesmoke;
 }
 
-/* Contenu de la carte */
 .project-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .project-content .title {
     font-size: 1.5em;
     font-weight: bold;
-    margin-bottom: 10px;
+}
+
+
+.project-content .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.project-content .tag {
+  background-color: rgba(28, 2, 129, 0.2);
+  border: 1px solid rgba(28, 2, 129, 0.5);
+  padding: 3px 10px;
+  border-radius: 16px;
+  font-size: 11px;
+  font-weight: 500;
 }
