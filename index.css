@@ -175,6 +175,7 @@ nav .active {
     height: 100%;
     gap: 40px;
     padding: 50px 0;
+    position: relative;
 }
 
 .project> h1 {
@@ -199,6 +200,7 @@ nav .active {
 
 .project-card:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .project-image {
@@ -247,10 +249,77 @@ nav .active {
 }
 
 .project-content .tag {
-  background-color: rgba(28, 2, 129, 0.2);
-  border: 1px solid rgba(28, 2, 129, 0.5);
-  padding: 3px 10px;
-  border-radius: 16px;
-  font-size: 11px;
-  font-weight: 500;
+    background-color: rgba(28, 2, 129, 0.2);
+    border: 1px solid rgba(28, 2, 129, 0.5);
+    padding: 3px 10px;
+    border-radius: 16px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+/* popup */
+
+dialog {
+    padding: 1rem 3rem;
+    background: white;
+    max-width: 400px;
+    padding-top: 2rem;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 10%);
+    animation: fadeIn 1s ease both;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+dialog::backdrop {
+    animation: fadeIn 1s ease both;
+    background: rgb(255 255 255 / 40%);
+    z-index: 2;
+    backdrop-filter: blur(20px);
+}
+
+dialog .x {
+    filter: grayscale(1);
+    border: none;
+    background: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    transition: ease filter, transform 0.3s;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+dialog .x:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+dialog h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+dialog p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  padding: 0.5rem 0;
+}
+
+dialog p a:visited {
+  color: rgb(var(--vs-primary));
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

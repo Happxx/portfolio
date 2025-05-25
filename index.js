@@ -107,7 +107,9 @@ function getProjects() {
             projects.forEach(project => {
                 const card = document.createElement('div');
                 card.classList.add('project-card');
-
+                card.onclick = () => {
+                    window.dialog.showModal();
+                }
                 const projectImage = document.createElement('div');
                 projectImage.classList.add('project-image');
 
