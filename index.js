@@ -22,6 +22,7 @@ function navControl() {
 
         navLinks.forEach(link => {
             link.classList.remove('active');
+            console.log(link.getAttribute('href'), current);
             if (link.getAttribute('href').includes(current)) {
                 link.classList.add('active');
             }
@@ -107,9 +108,19 @@ function getProjects() {
             projects.forEach(project => {
                 const card = document.createElement('div');
                 card.classList.add('project-card');
-                card.onclick = () => {
+                card.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    // populateDialog(project);
                     window.dialog.showModal();
-                }
+                    document.body.classList.add('modal-open');
+                });
+
+                document.querySelector('#dialog .x').addEventListener('click', () => {
+                    window.dialog.close();
+                    document.body.classList.remove('modal-open');
+                });
+
                 const projectImage = document.createElement('div');
                 projectImage.classList.add('project-image');
 
