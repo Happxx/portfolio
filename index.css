@@ -102,7 +102,7 @@ nav .active {
     flex-direction: column;
     height: 100%;
     gap: 40px;
-    padding: 0 0 50px 0;
+    padding: 50px 0;
 }
 
 .skill h1 {
@@ -328,13 +328,21 @@ body.modal-open {
 /* contact form */
 
 .contact {
-  padding: 50px 0;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
 }
+
+.contact h1 {
+    font-size: 3em;
+    color: #1C0281;
+}
+
 #contact_form {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 5px;
+  text-align: left;
 }
 
 .contact .row {
@@ -353,27 +361,67 @@ body.modal-open {
 }
 
 .contact .error_message {
-  color: red;
-  font-size: 14px;
-  margin-top: 5px;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .contact #submit_button {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #11b8e2;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1C0281;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
 }
 
 .contact #submit_button:hover {
-  background-color: #0c9dc2;
+    background-color: #2807a9;
 }
 
 .contact #after_submit {
-  color: green;
-  margin-top: 10px;
-  text-align: center;
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #1C0281;
+    color: white;
+}
+
+.footer-links {
+    z-index: 10;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #d3d3d3;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 5px;
 }

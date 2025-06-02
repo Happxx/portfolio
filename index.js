@@ -8,6 +8,7 @@ function navControl() {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-link a');
     const nav = document.getElementsByTagName('nav')[0];
+    navLinks[0].classList.add('active');
     window.addEventListener('scroll', function() {
         let current = '';
 
@@ -25,7 +26,7 @@ function navControl() {
             if (link.getAttribute('href').includes(current)) {
                 link.classList.add('active');
             }
-            if (current === 'skill') {
+            if (current === 'skill' || current === 'contact') {
                 nav.classList.add('black');
             } else {
                 nav.classList.remove('black');
