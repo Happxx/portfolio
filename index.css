@@ -121,9 +121,12 @@ nav .active {
     background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
-    padding: 35px;
     width: 200px;
     height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
