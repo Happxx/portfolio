@@ -42,14 +42,16 @@ nav a {
     text-decoration: none;
     color: #1C0281;
     transition: color 0.3s, border-bottom 0.3s;
+    opacity: 0.5;
 }
 
 nav a:hover {
-    color: #d3d3d3;
+    opacity: 1;
 }
 
 nav .active {
     text-decoration: underline;
+    opacity: 1;
 }
 
 .black a {
@@ -67,6 +69,7 @@ nav .active {
     height: 74vh;
     background-color: #1C0281;
     color: #fff;
+    
 }
 
 .hero-content {
@@ -102,7 +105,7 @@ nav .active {
     flex-direction: column;
     height: 100%;
     gap: 40px;
-    padding: 50px 0;
+    padding: 50px 0px 0px 0px;
 }
 
 .skill h1 {
@@ -177,7 +180,7 @@ nav .active {
     background-color: #1C0281;
     height: 100%;
     gap: 40px;
-    padding: 50px 0;
+    padding: 50px 0px 0px 0px;
     position: relative;
 }
 
@@ -378,6 +381,7 @@ body.modal-open {
     border-radius: 3px;
     cursor: pointer;
     color: white;
+    font-weight: bold;
 }
 
 .contact #submit_button:hover {
