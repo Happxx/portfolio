@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
     navControl();
     getSkills();
     getProjects();
+    handleDialog();
+   
 });
 
 function navControl() {
@@ -98,6 +100,66 @@ function getSkills(){
    
 }
 
+function populateDialog(project){
+    const dialog = document.getElementById('dialog-content');
+    dialog.innerHTML = ''; // Clear previous content
+    const h1 = document.createElement('h1');
+    h1.textContent = project.title;
+    dialog.appendChild(h1);
+
+    const tagsContainer = document.createElement('div');
+    tagsContainer.className = 'tags';
+    project.tags.forEach(tag => {
+        const span = document.createElement('span');
+        span.className = 'tag';
+        span.textContent = tag;
+        tagsContainer.appendChild(span);
+    });
+    
+    dialog.appendChild(tagsContainer);
+
+    const description = document.createElement('div');
+    description.className = 'detailDescription';
+    project.detailDescription.forEach(txt => {
+        const div = document.createElement('div')
+        div.textContent = txt
+        description.appendChild(div)
+    })
+    dialog.appendChild(description);
+
+    const featuresList = document.createElement('ul');
+    featuresList.className = 'features';
+    const featuresTitle = document.createElement('h2');
+    featuresTitle.textContent = 'Missions';
+    dialog.appendChild(featuresTitle);
+    project.features.forEach(feature => {
+        const li = document.createElement('li');
+        li.textContent = feature;
+        featuresList.appendChild(li);
+    });
+
+    dialog.appendChild(featuresList);
+}
+
+function handleDialog(){
+    const dialog = document.getElementById('dialog');
+    dialog.addEventListener('click', function(event) {
+        const rect = dialog.getBoundingClientRect();
+        const x = event.clientX;
+        const y = event.clientY;
+        // Si le clic est en dehors du rectangle du contenu
+        if (
+            x < rect.left ||
+            x > rect.right ||
+            y < rect.top ||
+            y > rect.bottom
+        ) {
+            dialog.close();
+            document.body.classList.remove('modal-open');
+        }
+    });
+}
+
 
 function getProjects() {
     fetch('./json/projects.json')
@@ -111,7 +173,7 @@ function getProjects() {
                 card.addEventListener('click', (e) => {
                     e.preventDefault();
                     e.stopPropagation();
-                    // populateDialog(project);
+                    populateDialog(project);
                     window.dialog.showModal();
                     document.body.classList.add('modal-open');
                 });
