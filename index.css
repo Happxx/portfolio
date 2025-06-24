@@ -93,6 +93,28 @@ nav .active {
     mask-image: radial-gradient(circle, rgb(255, 255, 255) 55%, rgba(0, 0, 0, 0) 61%);
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+        .hero {
+        height: auto;
+        padding: 55px 10px 10px 10px;
+    }
+    .hero-content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .hero-image {
+        width: 70%;
+        max-width: 160px;
+    }
+    .hero-text h1 {
+        font-size: 2em;
+    }
+    .hero-text p {
+        font-size: 1em;
+    }
+}
+
 .skill-list img {
     width: 2%;
     height: auto;
@@ -190,8 +212,8 @@ nav .active {
 }
 
 .project-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;

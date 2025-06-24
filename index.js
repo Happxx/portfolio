@@ -16,8 +16,7 @@ function navControl() {
 
         sections.forEach(section => {
             const sectionTop = section.offsetTop;
-            const sectionHeight = section.clientHeight;
-            if (this.scrollY - 100 >= sectionTop - sectionHeight / 3) {
+            if (this.scrollY >= sectionTop - 60 ) {
                 current = section.getAttribute('id');
             }
            
