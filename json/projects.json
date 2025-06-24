@@ -11,9 +11,7 @@
       "Installer Git et IntelliJ IDEA Community"
     ],
     "detailDescription": [
-      "L'objectif du projet est de savoir comment installer et configurer un poste de travail sous Linux avec Debian 11 et KDE/Plasma sur une machine virtuelle, ainsi que d'installer les logiciels propices au développement tels qu'un JDK (Java Development Kit), Git et IntelliJ IDEA Community.",
-      "J'ai donc réalisé un diagramme pour illustrer les étapes nécessaires pour accomplir cette tâche."
-    ]
+      "L'objectif du projet est de savoir comment installer et configurer un poste de travail sous Linux avec Debian 11 et KDE/Plasma sur une machine virtuelle, ainsi que d'installer les logiciels propices au développement tels qu'un JDK (Java Development Kit), Git et IntelliJ IDEA Community. J'ai donc réalisé un <a href=\"https://www.mindmeister.com/map/2724153770?t=SzuHDWU5eX\" target=\"_blank\">diagramme</a> pour illustrer les étapes nécessaires pour accomplir cette tâche."    ]
   },
   {
     "title": "IA de classification de dépêches",
@@ -26,13 +24,9 @@
       "Réaliser un algorithme"
     ],
     "detailDescription": [
-      "L'objectif du projet est de créer un programme de classification automatique de dépêches aussi fiable et rapide que possible. Une dépêche est un court texte correspondant à une information journalistique.",
-      "Nous avons créé un algorithme de classification automatique des dépêches par catégories (culture, économie, politique, sports et environnement-sciences) à l'aide d'un lexique créé automatiquement pour chaque catégorie.",
-      "Ce lexique contient un ensemble de mots marqueurs calculés en fonction de leur récurrence par catégorie.",
-      "Notre algorithme attribue un score aux mots du lexique en fonction de leur degré d'appartenance à la catégorie.",
-      "Ensuite, notre algorithme compare chaque mot d'une dépêche et additionne le score de chaque mot du lexique présent dans la dépêche.",
-      "Ainsi, nous obtenons un score global par catégorie pour une dépêche, et la catégorie avec le score le plus élevé est très probablement la vraie catégorie de cette dépêche.",
-      "J'ai donc écrit le code principal de l'algorithme de classification et quelques fonctions secondaires telles que le calcul du score ou la méthode de tri."
+      "L'objectif du projet est de créer un programme de classification automatique de dépêches aussi fiable et rapide que possible. Une dépêche est un court texte correspondant à une information journalistique. ",
+      "Nous avons créé un algorithme de classification automatique des dépêches par catégories (culture, économie, politique, sports et environnement-sciences) à l'aide d'un lexique créé automatiquement pour chaque catégorie. Ce lexique contient un ensemble de mots marqueurs calculés en fonction de leur récurrence par catégorie. Notre algorithme attribue un score aux mots du lexique en fonction de leur degré d'appartenance à la catégorie.",
+      "Ensuite, notre algorithme compare chaque mot d'une dépêche et additionne le score de chaque mot du lexique présent dans la dépêche. Ainsi, nous obtenons un score global par catégorie pour une dépêche, et la catégorie avec le score le plus élevé est très probablement la vraie catégorie de cette dépêche. J'ai donc écrit le code principal de l'algorithme de classification et quelques fonctions secondaires telles que le calcul du score ou la méthode de tri."
     ]
   },
   {
@@ -48,11 +42,9 @@
       "Réaliser un rapport en anglais"
     ],
     "detailDescription": [
-      "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents en Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans.",
-      "L'objectif de cette étude est d'informer les usagers de la route.",
-      "Nous avons d'abord nettoyé les données pour ensuite les trier et garder que les informations importantes pour notre étude.",
-      "Par la suite, nous avons étudié cette base de données à l'aide de requêtes SQL.",
-      "Au final, nous avons créé un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R Studio avec le langage R Markdown afin de rédiger un rapport écrit et d'ajouter des graphes et tableaux dans un document PDF."
+      "À l'aide d'une base de données mise à notre disposition par l'Observatoire National Interministériel de la Sécurité Routière, nous avons réalisé une étude sur les accidents en Provence-Alpes-Côte d'Azur au cours des quinze dernières années, en se focalisant sur la population de moins de 18 ans.  L'objectif de cette étude est d'informer les usagers de la route. ",
+      "Nous avons d'abord nettoyé les données pour ensuite les triés et garder que les informations importantes pour notre étude, par la suite nous avons étudié cette base de données à l'aide de requête SQL. ",
+      "Pour finir par la création d'un document en anglais qui regroupe plusieurs graphiques et tableaux présentant les résultats de cette étude à l'aide du logiciel R studio avec le langage R markdown afin de régider un rapport écrit et de rajouter des graphes et tableaux dans un document pdf."
     ]
   },
   {
@@ -65,10 +57,8 @@
       "Installer et configurer les différents services"
     ],
     "detailDescription": [
-      "Pour ce projet, j'ai installé un serveur Debian 11 équipé d'Apache, PostgreSQL et PHP sur une machine virtuelle.",
-      "Travaillant seul, j'ai produit un guide d'installation rédigé en anglais, détaillant chaque étape de l'installation et de la configuration des différents services.",
-      "Cette documentation a été conçue pour être claire et accessible, permettant à d'autres utilisateurs de reproduire le processus sans difficulté.",
-      "Le projet comprenait l'installation initiale du système d'exploitation Debian, suivie de l'installation et de la configuration d'Apache pour servir des pages web, de PostgreSQL pour la gestion des bases de données, et de PHP pour le traitement des scripts côté serveur."
+      "Pour ce projet, j'ai installé un serveur Debian 11 équipé d'Apache, PostgreSQL et PHP sur une machine virtuelle. Travaillant seul, j'ai produit un <a href=\"tuto_debian_en.pdf\" target=\"_blank\">guide d'installation</a> rédigé en anglais, détaillant chaque étape de l'installation et de la configuration des différents services. ",
+      "Cette documentation a été conçue pour être claire et accessible, permettant à d'autres utilisateurs de reproduire le processus sans difficulté. Le projet comprenait l'installation initiale du système d'exploitation Debian, suivie de l'installation et de la configuration d'Apache pour servir des pages web, de PostgreSQL pour la gestion des bases de données, et de PHP pour le traitement des scripts côté serveur."
     ]
   },
   {
@@ -83,13 +73,9 @@
       "Coder, tester, debugger l'application"
     ],
     "detailDescription": [
-      "Ce projet visait à développer une application de gestion de tournoi de jeux vidéo en utilisant Java et JavaFX et en respectant l'architecture MVC (Modèle-Vue-Contrôleur).",
-      "En tant que chef de projet, avec l'équipe nous avons coordonné la planification des tâches et réparti les rôles.",
-      "Ensemble, nous avons défini les spécifications de l'application, détaillant les fonctionnalités nécessaires pour répondre aux besoins des utilisateurs.",
-      "Tout au long du projet, nous avons codé, testé et débogué l'application, garantissant ainsi son bon fonctionnement et son efficacité.",
-      "Pour ma part, j'ai participé au développement côté back-end, avec la création des contrôleurs et modèles.",
-      "L'utilisation de Git a facilité notre gestion de version et notre collaboration.",
-      "Cette expérience m'a permis de développer des compétences en gestion de projet, en travail d'équipe et en développement logiciel."
+      "Ce projet visait à développer une application de gestion de tournoi de jeux vidéo en utilisant Java et JavaFX et en respectant l'architecture MVC (Modèle-Vue-Contrôleur). En tant que chef de projet, avec l'équipe nous avons coordonné la planification des tâches et réparti les rôles. ",
+      "Ensemble, nous avons défini les spécifications de l'application, détaillant les fonctionnalités nécessaires pour répondre aux besoins des utilisateurs. Tout au long du projet, nous avons codé, testé et débogué l'application, garantissant ainsi son bon fonctionnement et son efficacité. ",
+      "Pour ma part, j'ai participé au développement côté back-end, avec la création des contrôleurs et modèles. L'utilisation de Git a facilité notre gestion de version et notre collaboration. Cette expérience m'a permis de développer des compétences en gestion de projet, en travail d'équipe et en développement logiciel."
     ]
   },
   {
@@ -105,15 +91,10 @@
       "Coder, tester, debugger le coding game"
     ],
     "detailDescription": [
-      "L'objectif du projet est de réaliser un outil ludo-éducatif à destination des élèves de lycée en première pour la matière Numérique et Sciences Informatiques sur la partie algorithmique, avec un suivi des élèves.",
-      "Notre projet est donc un jeu où l'étudiant devra écrire du code à l'aide de méthodes données en pseudo-python, par exemple avancer, reculer.",
-      "Grâce à ces méthodes, le joueur résout des puzzles où l'objectif principal est de déplacer son personnage d'un point de départ à un point d'arrivée.",
-      "Le joueur devra surmonter des obstacles et résoudre des énigmes ou problèmes, seul ou à deux.",
-      "Avec l'équipe, nous avons défini les spécifications de l'application et planifié les tâches de chaque membre pour garantir une progression efficace.",
-      "Nous avons développé le modèle de données et assuré l'interaction avec une base de données PostgreSQL.",
-      "Le jeu a été conçu en utilisant React pour l'interface utilisateur, Node.js pour le backend et Phaser JS pour les éléments de jeu interactifs.",
-      "Pour ma part, j'ai développé la partie jeu avec Phaser JS et participé au développement du semi-interpréteur Python.",
-      "Un rapport a été rédigé par toute l'équipe à la fin du projet."
+      "L'objectif du projet est de réaliser un outil ludo-éducatif à destination des élèves de lycée en première pour la matière Numérique et Sciences Informatiques sur la partie algorithmique, avec un suivi des élèves. ",
+      "Notre projet est donc un jeu où l'étudiant devra écrire du code à l'aide de méthodes données en pseudo-python, par exemple avancer, reculer. Grâce à ces méthodes, le joueur résout des puzzles où l'objectif principal est de déplacer son personnage d'un point de départ à un point d'arrivée. Le joueur devra surmonter des obstacles et résoudre des énigmes ou problèmes, seul ou à deux.",
+      "Avec l'équipe, nous avons défini les spécifications de l'application et planifié les tâches de chaque membre pour garantir une progression efficace. Nous avons développé le modèle de données et assuré l'interaction avec une base de données PostgreSQL. Le jeu a été conçu en utilisant React pour l'interface utilisateur, Node.js pour le backend et Phaser JS pour les éléments de jeu interactifs. ",
+      "Pour ma part, j'ai développé la partie jeu avec Phaser JS et participé au développement du semi-interpréteur Python. Un rapport a été rédigé par toute l'équipe à la fin du projet."
     ]
   },
   {
@@ -127,11 +108,9 @@
       "Travailler en équipe"
     ],
     "detailDescription": [
-      "Le projet 'WhileTrue' a été réalisé lors d'une GameJam sur le thème 'Le monde merveilleux de l'IUT2, Garder le rythme, Paramétrer avec des arguments'.",
-      "Notre équipe de cinq personnes a créé un jeu où un élève découvre que son ami est un meurtrier et revit la même journée en boucle.",
-      "J'ai pris en charge le développement backend, en créant une API pour paramétrer le jeu (entités, points d'apparition, dialogues) via Talend, qui génère les cartes en PYTMX.",
-      "J'ai également développé le jeu de rythme.",
-      "Nous avons utilisé Pygame pour les éléments de base et PyTMX pour la gestion des tuiles."
+      "Le projet 'WhileTrue' a été réalisé lors d'une GameJam sur le thème 'Le monde merveilleux de l'IUT2, Garder le rythme, Paramétrer avec des arguments'. ",
+      "Notre équipe de cinq personnes a créé un jeu où un élève découvre que son ami est un meurtrier et revit la même journée en boucle. ",
+      "J'ai pris en charge le développement backend, en créant une API pour paramétrer le jeu (entités, points d'apparition, dialogues) via Talend, qui génère les cartes en PYTMX. Ainsi que le développement du jeu de rythme. Nous avons utilisé Pygame pour les éléments de base et PyTMX pour la gestion des tuiles."
     ]
   },
   {
@@ -146,10 +125,9 @@
       "Répondre à des besoins clients"
     ],
     "detailDescription": [
-      "Lors de ce stage chez Axopen à Lyon, j'ai travaillé sur l'amélioration et l'intégration de nouvelles fonctionnalités dans l'ERP web de l'entreprise.",
-      "Mes tâches incluaient l'analyse du code existant, l'ajout de nouvelles fonctionnalités, ainsi que la correction et l'adaptation des fonctionnalités existantes en traitant des tickets.",
-      "J'ai également travaillé en équipe pour répondre aux besoins des clients.",
-      "Les technologies utilisées incluaient Angular pour le frontend, SpringBoot pour le backend, PostgreSQL pour la base de données, et Azure pour le déploiement."
+      "Lors de ce stage chez Axopen à Lyon, j'ai travaillé sur l'amélioration et l'intégration de nouvelles fonctionnalités dans l'ERP web de l'entreprise. Mes tâches incluaient l'analyse du code existant, l'ajout de nouvelles fonctionnalités, ainsi que la correction et l'adaptation des fonctionnalités existantes en traitant des tickets. ",
+      "J'ai également travaillé en équipe pour répondre aux besoins des clients. Les technologies utilisées incluaient Angular pour le frontend, SpringBoot pour le backend, PostgreSQL pour la base de données, et Azure pour le déploiement.",
+      "Cette expérience m'a également permis de développer mes compétences en gestion de projet, en compréhension de tickets techniques, en analyse de code, ainsi qu'en collaboration au sein d'une équipe de développeurs. Elle a renforcé mon autonomie"
     ]
   }
 ]

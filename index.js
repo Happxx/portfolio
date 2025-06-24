@@ -107,6 +107,8 @@ function populateDialog(project){
     h1.textContent = project.title;
     dialog.appendChild(h1);
 
+
+    const container = document.createElement('div');
     const tagsContainer = document.createElement('div');
     tagsContainer.className = 'tags';
     project.tags.forEach(tag => {
@@ -115,14 +117,20 @@ function populateDialog(project){
         span.textContent = tag;
         tagsContainer.appendChild(span);
     });
-    
-    dialog.appendChild(tagsContainer);
+    container.appendChild(tagsContainer);
+
+    const date = document.createElement('span');
+    date.classList.add('date');
+    date.textContent = project.date;
+    container.appendChild(date);
+
+    dialog.appendChild(container);
 
     const description = document.createElement('div');
     description.className = 'detailDescription';
     project.detailDescription.forEach(txt => {
         const div = document.createElement('div')
-        div.textContent = txt
+        div.innerHTML = txt
         description.appendChild(div)
     })
     dialog.appendChild(description);
@@ -142,6 +150,10 @@ function populateDialog(project){
 }
 
 function handleDialog(){
+    document.querySelector('#dialog .x').addEventListener('click', () => {
+        window.dialog.close();       
+        document.body.classList.remove('modal-open');
+    });
     const dialog = document.getElementById('dialog');
     dialog.addEventListener('click', function(event) {
         const rect = dialog.getBoundingClientRect();
@@ -178,10 +190,6 @@ function getProjects() {
                     document.body.classList.add('modal-open');
                 });
 
-                document.querySelector('#dialog .x').addEventListener('click', () => {
-                    window.dialog.close();
-                    document.body.classList.remove('modal-open');
-                });
 
                 const projectImage = document.createElement('div');
                 projectImage.classList.add('project-image');
@@ -206,13 +214,15 @@ function getProjects() {
                 card.appendChild(projectImage);
 
                 const projectContent = document.createElement('div');
-                projectContent.classList.add('project-content');
+                projectContent.classList.add('project-content');         
 
                 const title = document.createElement('h1');
                 title.classList.add('title');
                 title.textContent = project.title;
                 projectContent.appendChild(title);
                 
+                const container = document.createElement('div');
+
                 const tags = document.createElement('div');
                 tags.classList.add('tags');
                 project.tags.forEach(tag => {
@@ -221,8 +231,16 @@ function getProjects() {
                     tagElement.textContent = tag;
                     tags.appendChild(tagElement);
                 });
-                projectContent.appendChild(tags);    
+                container.appendChild(tags);  
             
+                
+                const date = document.createElement('span');
+                date.classList.add('date');
+                date.textContent = project.date;
+                container.appendChild(date);
+
+                projectContent.appendChild(container);
+
                 const description = document.createElement('p');
                 description.textContent = project.description;
                 projectContent.appendChild(description);
