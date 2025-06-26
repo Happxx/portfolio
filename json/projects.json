@@ -2,7 +2,7 @@
   {
     "title": "Installation d'un poste de travail pour le développement",
     "date": "2022",
-    "img": "img/project/poste_de_travail.png",
+    "img": "img/project/programming.png",
     "tags": ["Debian 11", "KDE/Plasma", "1 personne"],
     "description": "Installer et configurer un poste de travail pour le développement",
     "features": [
@@ -50,6 +50,7 @@
   {
     "title": "Installation de services réseau",
     "date": "2023",
+    "img": "img/project/poste_de_travail.png",
     "tags": ["Debian 11", "Apache", "PostgreSQL", "PHP", "1 personne"],
     "description": "Installer serveur Debian 11 équipé d'Apache, PostgreSQL et PHP sur une VM",
     "features": [
@@ -64,6 +65,7 @@
   {
     "title": "Ezlan",
     "date": "2023",
+    "img": "img/project/ezLan.png",
     "tags": ["Java", "JavaFX", "5 personnes (Chef de projet)"],
     "description": "Développer une application de gestion de tournoi de jeux vidéo",
     "features": [
@@ -81,6 +83,7 @@
   {
     "title": "CodeCrafter",
     "date": "2024",
+    "img": "img/project/codeCrafter.png",
     "tags": ["React", "Node JS", "Phaser JS", "PostgreSQL", "7 personnes (Chef de projet)"],
     "description": "Développer un coding game destiné aux élèves de NSI sur l'algorithmique en 3 mois",
     "features": [
