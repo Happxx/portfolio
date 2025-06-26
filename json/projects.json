@@ -129,5 +129,20 @@
       "J'ai également travaillé en équipe pour répondre aux besoins des clients. Les technologies utilisées incluaient Angular pour le frontend, SpringBoot pour le backend, PostgreSQL pour la base de données, et Azure pour le déploiement.",
       "Cette expérience m'a également permis de développer mes compétences en gestion de projet, en compréhension de tickets techniques, en analyse de code, ainsi qu'en collaboration au sein d'une équipe de développeurs. Elle a renforcé mon autonomie"
     ]
+  },
+  {
+    "title": "Stage Interface de Contrôle de Moteurs de Drones",
+    "date": "2025",
+    "tags": ["Node JS", "Express", "JavaScript"],
+    "description": "Développement d'une interface web permettant de contrôler une matrice de moteurs dedrone via une API sur Raspberry Pi.",
+    "features": [
+      "Concevoir et développer le frontend en HTML et SCSS",
+      "Développer le backend en Node.js pour l'interaction avec l'API",
+      "Travailler en équipe"
+    ],
+    "detailDescription": [
+      "Dans le cadre de ma troisième année de Baccalauréat à l'Université du Quebec à Chicoutimi, j'ai eu l'opportunité d'effectuer un stage-projet au sein de l'Université. L'objectif du stage est de développé une interface web de contrôle de moteur de drone. Mon rôle est de développer l'interface logicielle (API) pour interagir avec les moteurs de drone.",
+      "Mon rôle était de développer l'interface logiciel. L'objectif était de concevoir une API légère, rapide et fiable, capable d'interagir efficacement avec les différents moteurs tout en offrant une base solide pour des développements futurs liés à l'automatisation. j'avais la responsabilité complète du projet de développement de l'API. Cela comprenait l'analyse des besoins, la sélection des technologies, la conception de l'architecture du projet ainsi que la réalisation d'un prototype fonctionnel. J'avais également la charge de l'intégration des différentes fonctionnalités nécessaires pour établir la communication entre l'API et les moteurs de drones." 
+    ]
   }
 ]
