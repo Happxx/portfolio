@@ -133,8 +133,8 @@ function populateDialog(project){
         description.appendChild(div)
     })
     dialog.appendChild(description);
-
-    const featuresList = document.createElement('ul');
+    if (project.features) {
+        const featuresList = document.createElement('ul');
     featuresList.className = 'features';
     const featuresTitle = document.createElement('h2');
     featuresTitle.textContent = 'Missions';
@@ -146,6 +146,8 @@ function populateDialog(project){
     });
 
     dialog.appendChild(featuresList);
+    }
+    
 }
 
 function handleDialog(){

@@ -136,6 +136,22 @@
     ]
   },
   {
+    "title": "SmartCook",
+    "date": "2025",
+    "img": "img/project/smartCook.jpg",
+    "tags": ["Vue JS", "TypeScript", "PostgreSQL", "4 personnes"],
+    "description": "Développement d'une application web capable de générer des recettes de cuisine à partir des ingrédients disponibles chez nous.",
+    "features": [
+      "Concevoir et développer l'application",
+      "Utiliser un api externe pour la génération de recettes",
+      "Travailler en équipe"
+    ],
+    "detailDescription": [
+      "Le projet est une application web qui permet de générer des recettes à partir d'aliments donné. L'utilisateur peut renseigner les ingrédients dont il dispose via une barre de recherche afin d'obtenir des suggestions de recettes adaptées. L'application propose également plusieurs fonctionnalités : gestion des favoris, sélection hebdomadaire de recettes, historique des plats consultés récemment, ainsi qu'une intégration de diverses APIs externes (Edamam). L'application est faite avec le framework Vue.js, connectée à une base de données PostgreSQL."
+    ]
+  },
+  
+  {
     "title": "Stage Interface de Contrôle de Moteurs de Drones",
     "date": "2025",
     "img": "img/project/uqac.png",
@@ -149,6 +165,19 @@
     "detailDescription": [
       "Dans le cadre de ma troisième année de Baccalauréat à l'Université du Quebec à Chicoutimi, j'ai eu l'opportunité d'effectuer un stage-projet au sein de l'Université. L'objectif du stage est de développé une interface web de contrôle de moteur de drone. Mon rôle est de développer l'interface logicielle (API) pour interagir avec les moteurs de drone.",
       "Mon rôle était de développer l'interface logiciel. L'objectif était de concevoir une API légère, rapide et fiable, capable d'interagir efficacement avec les différents moteurs tout en offrant une base solide pour des développements futurs liés à l'automatisation. j'avais la responsabilité complète du projet de développement de l'API. Cela comprenait l'analyse des besoins, la sélection des technologies, la conception de l'architecture du projet ainsi que la réalisation d'un prototype fonctionnel. J'avais également la charge de l'intégration des différentes fonctionnalités nécessaires pour établir la communication entre l'API et les moteurs de drones." 
+    ]
+  },
+  {
+    "title": "Mon année au Canada",
+    "date": "2025",
+    "img": "img/project/canada.png",
+    "description": "Échange universitaire à l'Université du Québec à Chicoutimi (UQAC) pour une année",
+    "tags": ["UQAC", "Chicoutimi", "Canada"],
+    "detailDescription": [
+      "Durant ma troisième année de BUT Informatique à Grenoble, j'ai eu l'opportunité de réaliser un échange universitaire à l'Université du Québec à Chicoutimi (UQAC), dans le cadre d'un programme en informatique. Cette année m'a permis de découvrir un nouveau système académique, plus orienté projet, tout en renforçant mes compétences techniques et humaines.",
+      "Sur le plan personnel, vivre et étudier dans un environnement multiculturel m'a permis de m'ouvrir à la diversité, de faire preuve de curiosité, et de développer ma capacité d'adaptation. J'ai notamment su m'intégrer rapidement à un nouveau groupe, que ce soit à l'université ou dans le cadre de mon emploi étudiant. Cela m'a aussi permis de nouer facilement des relations, de travailler en équipe dans des contextes différents, et de mieux comprendre les attentes dans un environnement professionnel étranger.",
+      "En parallèle des cours, j'ai occupé un emploi étudiant, ce qui m'a aidé à gagner en autonomie, à m'organiser efficacement et à relever plusieurs défis, notamment en matière de communication et de gestion du temps. Enfin, cette année m'a également permis d'affirmer mes opinions et mes choix dans des situations nouvelles, parfois déstabilisantes, tout en gardant un esprit ouvert au changement.",
+      "Cette expérience m'a permis de développer de nombreuses compétences transversales essentielles, comme l'adaptabilité, l'autonomie, la communication interculturelle et le travail en équipe. J'ai appris à m'intégrer rapidement dans un nouvel environnement, à gérer des situations imprévues, et à collaborer avec des personnes issues de cultures différentes. J'ai également renforcé ma capacité à prendre des initiatives, à m'organiser efficacement, et à affirmer mes idées avec confiance, que ce soit dans le cadre universitaire ou professionne"
     ]
   }
 ]
