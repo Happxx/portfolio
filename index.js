@@ -178,7 +178,7 @@ function getProjects() {
         .then(projects => {
             const projectList = document.querySelector('.project-list');
 
-            projects.forEach(project => {
+            projects.reverse().forEach(project => {
                 const card = document.createElement('div');
                 card.classList.add('project-card');
                 card.addEventListener('click', (e) => {
