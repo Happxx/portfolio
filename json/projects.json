@@ -103,6 +103,7 @@
   {
     "title": "WhileTrue",
     "date": "2024",
+    "img": "img/project/whileTrue.jpg",
     "tags": ["Python", "GameJam", "Pygame/PyTMX", "5 personnes"],
     "description": "Réaliser un jeu avec des contraintes et langage imposé lors d'une GameJam",
     "features": [
@@ -118,6 +119,7 @@
   },
   {
     "title": "Stage Développement Web",
+    "img": "img/project/axopen.jpg",
     "date": "2024",
     "tags": ["Angular", "SpringBoot", "PostgreSQL", "Azure", "Axopen", "Lyon"],
     "description": "Améliorer et intégrer de nouvelles fonctionnalités dans l'ERP web de l'entreprise",
@@ -136,6 +138,7 @@
   {
     "title": "Stage Interface de Contrôle de Moteurs de Drones",
     "date": "2025",
+    "img": "img/project/uqac.png",
     "tags": ["Node JS", "Express", "JavaScript"],
     "description": "Développement d'une interface web permettant de contrôler une matrice de moteurs dedrone via une API sur Raspberry Pi.",
     "features": [
